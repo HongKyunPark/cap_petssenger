@@ -48,4 +48,15 @@ public class Login extends AppCompatActivity {
             et_id.setText(data.getStringExtra("ID"));
         }
     }
+
+    public void onClick(View view) {
+        Intent intent = null;
+        switch (view.getId()){
+            case R.id.button:
+                intent = new Intent(this, ProfileActivity.class);
+                break;
+
+        }
+        startActivity(intent);
+    }
 }
