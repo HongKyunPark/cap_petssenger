@@ -53,12 +53,15 @@
         android:id="@+id/history"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="나의 기록" />
+        android:text="나의 기록"
+        android:background="@drawable/rounded"
+        />
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="383dp">
+        android:layout_height="383dp"
+        >
 
     </ListView>
 
